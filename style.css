@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif; /* Fuente sin serifas */
+    margin: 0; /* margen predeterminada  */
+}
+
+.contenedor {
+    display: flex; /* Usa flexbox */
+    flex-wrap: wrap; /* Permite que las tarjetas se muevean a la sieguiente linea */
+    justify-content: space-around; /* Espacio uniforme entre elementos */
+    padding: 20px; /* Espacio interno al rededor de los elemnetos dentro del contenedor */
+}
+
+.tarjeta {
+    width: 300px; /* Ancho fijo de 300 px */
+    margin: 10px; /* margen de 10 px */
+    border: 1px solid #ccc; /* Borde gris al rededor de la tarjeta */
+    padding: 20px; /* Espacio interno a la tarjeta */
+    border-radius: 5px; /* Esquinas redondeadas a la tarjeta */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.tarjeta img {
+    width: 100%; /* Imagen al ancho de la tarjeta */
+    height: auto; /* Mantiene proporciones original */
+    display: block; /* Sin espacio extra */
+    border-radius: 5px 5px 0 0; /* Esquinas redondeadas en la parte superior de la imagen  */
+}
+
+.tarjeta h3 {
+    margin-top: 10px; /* añade una margen superior de 10 px para separar el encabezado */
+}
+
+.tarjeta p {
+    font-size: 0.9em; /* reduce el tamaño de la fuente */
+    line-height: 1.5; /* Espacio entre líneas */
+}
